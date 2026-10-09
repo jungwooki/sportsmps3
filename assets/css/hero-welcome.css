@@ -1,4 +1,13 @@
-/* Use the original published welcome hero gradient without WebGL color drift. */
-.hero{box-shadow:none}
-.hero-bg{background-color:#a6a1fb;background-image:url("../images/hero-wave.png");background-position:center;background-size:cover;background-repeat:no-repeat}
+/* Match the reference screenshot's saturated orange phase, without a white top wash. */
+.hero{background:#ff5b2d;box-shadow:none}
+.hero-bg{
+  background-color:#ff5b2d;
+  background-image:
+    radial-gradient(ellipse 80% 40% at -10% 52%,#fffef6 0%,#ffe7d6 22%,rgba(255,187,159,.65) 43%,rgba(255,187,159,0) 72%),
+    radial-gradient(ellipse 95% 48% at 100% 102%,#a6a1fb 0%,#b6a0fa 32%,rgba(194,141,217,.72) 59%,rgba(194,141,217,0) 83%),
+    linear-gradient(180deg,#ff5b2d 0%,#ff5b2d 34%,#ff654a 57%,#f37d96 78%,#c994df 100%);
+  background-position:center;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
 .hero-bg::before,.hero-bg::after{content:none}
