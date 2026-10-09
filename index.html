@@ -78,7 +78,6 @@ h1,h2,h3,h4,h5,p{margin:0}
 .hero{position:relative;overflow:hidden;background:#fff}
 .hero-bg{position:absolute;inset:0;overflow:hidden}
 .hero-bg{background:#a6a1fb url("assets/images/hero-wave.png") center/cover no-repeat}
-.hero-bg canvas{display:block;width:100%;height:100%;visibility:hidden}
 .hero-in{position:relative;padding:140px 24px 0;text-align:center}
 .hero h1{font-size:36px;font-weight:800;line-height:1.2;letter-spacing:-.01em}
 .hero .sub{margin-top:18px;font-size:16px}
@@ -438,8 +437,7 @@ h1,h2,h3,h4,h5,p{margin:0}
 <script defer="" src="assets/js/mobile-nav.js"></script>
 <link href="assets/css/welcome-motion.css" rel="stylesheet"/>
 <script defer="" src="assets/js/welcome-motion.js"></script>
-<link rel="stylesheet" href="assets/css/hero-welcome.css?v=20261009-2"/>
-<script defer src="assets/js/hero-wave.js?v=20261009-1"></script>
+<link rel="stylesheet" href="assets/css/hero-welcome.css?v=20261009-3"/>
 </head>
 <body>
 <!-- NAV -->
@@ -460,7 +458,7 @@ h1,h2,h3,h4,h5,p{margin:0}
 <main id="top">
 <!-- HERO -->
 <section class="hero">
-<div aria-hidden="true" class="hero-bg"><canvas></canvas></div>
+<div aria-hidden="true" class="hero-bg"></div>
 <div class="hero-in">
 <h1>13살이니까 13살의 기준으로<br/>평가하지 않습니다</h1>
 <p class="sub hero-description">11명의 선수, 11가지 성장속도<br/>성장단계에 맞춰 멘탈과 피지컬을 함께 읽는<br/>바이오밴딩 기반 선수 분석, MPS</p>

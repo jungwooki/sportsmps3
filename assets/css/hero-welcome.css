@@ -1,3 +1,4 @@
-/* Preserve the welcome wave background without a white edge. */
+/* Use the original published welcome hero gradient without WebGL color drift. */
 .hero{box-shadow:none}
+.hero-bg{background-color:#a6a1fb;background-image:url("../images/hero-wave.png");background-position:center;background-size:cover;background-repeat:no-repeat}
 .hero-bg::before,.hero-bg::after{content:none}
