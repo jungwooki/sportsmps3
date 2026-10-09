@@ -1,5 +1,3 @@
-/* Match welcome.sportsmps.com's hero description, including its variable font axis. */
+/* Preserve the welcome wave background without a white edge. */
 .hero{box-shadow:none}
 .hero-bg::before,.hero-bg::after{content:none}
-.hero .hero-description{font-family:"Pretendard Variable",Pretendard,sans-serif;font-size:14px;font-weight:700;font-variation-settings:"wght" 300;font-feature-settings:"blwf" on,"cv09" on,"cv03" on,"cv04" on,"cv11" on;line-height:1.6;letter-spacing:normal;color:rgba(0,0,0,.5);margin-top:16px}
-@media(min-width:810px){.hero .hero-description{font-size:18px}}
