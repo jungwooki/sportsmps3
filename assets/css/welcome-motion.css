@@ -1,0 +1,10 @@
+/* Motion settings from welcome.sportsmps.com: 400ms, cubic-bezier(.44,0,.56,1). */
+.report-screen{display:block;width:100%;height:auto;transform-origin:center}
+.welcome-report-pending{opacity:0;transform:translateY(50px) scale(.8)}
+.welcome-fade-pending{opacity:0}
+.welcome-ticker{animation:none!important;touch-action:pan-y;cursor:grab;user-select:none}
+.welcome-ticker.is-dragging{cursor:grabbing}
+.welcome-ticker img{-webkit-user-drag:none;user-select:none}
+@media(prefers-reduced-motion:reduce){
+  .welcome-report-pending,.welcome-fade-pending{opacity:1;transform:none}
+}

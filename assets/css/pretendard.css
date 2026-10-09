@@ -1,0 +1,102 @@
+/* Alternate mobile typography. Loaded only by index-pretendard.html. */
+@font-face{
+  font-family:'Pretendard';
+  src:url('../fonts/PretendardVariable.woff2') format('woff2');
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+body,#sample-dialog,.quick-dialog{
+  font-family:'Pretendard',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  line-height:1.6;
+  letter-spacing:-.015em;
+}
+h1,h2,h3{letter-spacing:-.035em;line-height:1.3}
+h1{font-size:40px;line-height:1.18}
+h2{font-size:30px;margin:18px 0 14px}
+h3{font-size:18px}
+.page{padding-top:26px}
+.lead{font-size:16px;line-height:1.6}
+.cover{padding-top:28px}
+.eyebrow{margin-bottom:20px}
+.cover .lead{margin-top:17px}
+.intro-copy{font-size:14px;margin-top:11px;line-height:1.65}
+.cover-art{min-height:215px}
+.cover-art img{height:225px}
+.art-word{font-size:24px}
+.cover-tags{margin:8px 0 16px}
+.model-stack{gap:10px;margin-top:20px}
+.model-card{padding:16px 18px;gap:20px}
+.model-card h3{font-size:18px;margin:3px 0 5px}
+.model-card p{font-size:14px;line-height:1.55}
+.letter{font-size:42px}
+.takeaway{margin-top:18px;padding:16px 18px}
+.takeaway p{font-size:14px;line-height:1.6}
+.field-photo{margin-top:20px;margin-bottom:15px}
+.question-list p{padding:11px 0;line-height:1.6}
+.age-card{margin-top:20px;padding:18px}
+.age-heading{font-size:18px;margin:7px 0 14px}
+.age-pair strong{font-size:38px;line-height:1.3}
+.definition{margin:19px 0 16px}
+.definition p{font-size:14px;line-height:1.65}
+.report{margin-top:20px;padding:18px}
+.report h3{font-size:18px}
+.report-heading{margin-bottom:13px}
+.bar-chart{gap:14px;margin:19px 0 14px}
+.bar-row{font-size:12px}
+.report-insight{margin-top:16px;padding:13px}
+.report-insight p{font-size:13px;line-height:1.6}
+blockquote{margin-top:19px;font-size:14px;line-height:1.7}
+.signal-row{padding:11px 0}
+.signal-row b{font-size:14px}
+.signal-row small{font-size:11px}
+details{margin-top:12px}
+summary{font-size:14px;min-height:48px}
+.general-visual{height:205px;margin:20px 0;padding:26px}
+.general-visual>div{font-size:27px}
+.body-copy{font-size:14px;line-height:1.7}
+.general-points{margin-top:14px}
+.general-points>div{padding:11px 0}
+.general-points p{font-size:12px;line-height:1.65}
+.journey-list{margin-top:24px}
+.journey-list li{padding-bottom:21px}
+.journey-list h3{font-size:17px;margin:6px 0}
+.journey-list p{font-size:14px;line-height:1.6}
+.contact-actions{margin-top:23px;gap:10px}
+.contact-btn{padding:16px;min-height:76px}
+.contact-btn b{font-size:17px}
+.closing-brand{margin:32px 0 22px}
+.europe-page h2{font-size:29px;margin:15px 0 12px}
+.europe-page>.lead{font-size:15px;line-height:1.6}
+.country-heading h3{font-size:16px}
+.europe-card>p:not(.country-point){font-size:12px;line-height:1.6}
+.europe-bridge p{font-size:16px;line-height:1.6}
+.center-photo{margin-top:20px}
+.center-photo figcaption{padding:14px 16px}
+.center-photo h3{font-size:17px;margin:5px 0 7px}
+.center-photo p{font-size:13px;line-height:1.6}
+.field-photo-grid figcaption b{font-size:12px}
+.sample-header h2,.quick-dialog-header h2{font-size:23px;line-height:1.3}
+#sample-description,.quick-dialog-body>p:first-child{font-size:14px;line-height:1.65}
+.preview-story h3{font-size:18px}
+.preview-story p{font-size:13px;line-height:1.65}
+.pdf-intro h3{font-size:22px}
+.pdf-intro p{font-size:13px;line-height:1.65}
+.program-title h3{font-size:18px}
+.program-price b{font-size:32px}
+.program-card ul{font-size:13px;line-height:1.8}
+.included-box p{font-size:13px;line-height:1.8}
+.floating-actions>.sample-fab,.floating-actions .booking-action{font-size:13px}
+@media(min-width:440px){
+  h1{font-size:44px}h2{font-size:33px}.lead{font-size:17px}
+  .cover-art{min-height:230px}.cover-art img{height:245px}
+}
+@media(max-width:359px){
+  h1{font-size:36px}h2{font-size:28px}.lead{font-size:15px}
+  .europe-page h2{font-size:27px}.model-card{gap:16px;padding:15px}
+  .bar-row{font-size:11px}.report{padding:16px}
+  .sample-header h2,.quick-dialog-header h2{font-size:21px}
+  .program-title h3{font-size:16px}.program-card ul{font-size:12px}
+  .floating-actions>.sample-fab,.floating-actions .booking-action{font-size:12px}
+}
+@media print{.page{padding-top:24px}}
