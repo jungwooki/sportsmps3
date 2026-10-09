@@ -8,7 +8,7 @@ body.hi-modal-open{overflow:hidden}#hi-sample-dialog{width:min(1040px,calc(100% 
 
 /* 상단 1/2만 선명하게 제공하는 샘플 미리보기 */
 .hi-blurred-preview{position:relative;overflow:hidden;border-radius:8px;isolation:isolate}
-.hi-blurred-preview::after{content:"";position:absolute;z-index:1;inset:50% 0 0;background:rgba(255,255,255,.16);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);pointer-events:none}
+.hi-blurred-preview::after{content:"";position:absolute;z-index:1;inset:50% 0 0;background:rgba(255,255,255,.16);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);pointer-events:none}
 .hi-blurred-preview img{display:block;user-select:none;-webkit-user-drag:none}
 
 /* 피지컬 종합결과·관절초음파평가 상세 이미지는 상단 1/3만 공개 */
